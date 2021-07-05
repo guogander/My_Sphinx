@@ -1,0 +1,23 @@
+.. _topics-安装主题:
+
+================================
+安装主题
+================================
+以安装sphinx-rtd-theme主题为例：
+先安装python库：
+
+.. code:: console 
+
+    pip install sphinx-rtd-theme
+
+然后修改conf.py文件，添加并修改如下内容：
+
+.. code:: python
+
+    import sphinx_rtd_theme
+
+    extensions = [
+        "sphinx_rtd_theme",
+    ]
+
+    html_theme = "sphinx_rtd_theme"

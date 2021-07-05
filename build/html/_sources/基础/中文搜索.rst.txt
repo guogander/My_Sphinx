@@ -1,0 +1,18 @@
+.. _topics-中文搜索:
+
+================================
+中文搜索
+================================
+
+先安装jieba库：
+
+.. code-block:: console 
+
+    pip install jieba
+
+然后修改conf.py文件，添加如下两行：
+
+.. code-block:: python
+
+    language='zh_CN'        # 修改生成的HTML文档为中文
+    html_search_language = 'zh_CN'        # 中文搜索

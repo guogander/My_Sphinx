@@ -1,0 +1,55 @@
+=======================
+段落级别标记
+=======================
+
+段落标记
+=====================
+
+.. code-block:: text
+
+    以下内容一次对应下面的效果：
+    .. note:: 这是note
+
+    .. warning:: 这是warning
+
+    .. versionadded:: 2.5
+
+    .. versionchanged:: 2.6
+
+    .. deprecated:: 1.0
+
+    .. seealso:: 这是seealso
+
+    .. rubric:: 这是rubric
+
+    .. centered:: LICENSE AGREEMENT
+
+
+.. note:: 这是note
+
+.. warning:: 这是warning
+
+.. versionadded:: 2.5
+
+.. versionchanged:: 2.6
+
+.. deprecated:: 1.0
+
+.. seealso:: 这是seealso
+
+.. rubric:: 这是rubric
+
+.. centered:: LICENSE AGREEMENT
+
+hlist
+===================
+列表分三列，使用:columns:3：
+
+.. hlist::
+    :columns: 3
+ 
+    * A list of
+    * short items
+    * that should be
+    * displayed
+    * horizontally
